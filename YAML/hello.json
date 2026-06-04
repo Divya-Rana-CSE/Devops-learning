@@ -1,0 +1,15 @@
+{
+  "cities": [
+    "mumbai",
+    "delhi",
+    "kolkata"
+  ],
+
+ "fruits": [
+  "apple",
+  "mango",
+  "banana" ] ,
+
+  "mango": "fruits",
+  "age": 60 
+}

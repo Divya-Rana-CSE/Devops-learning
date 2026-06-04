@@ -1,0 +1,25 @@
+# Key - value pairs
+"Name" : "Divya"
+"Apple" : "This is a red fruit"
+1 : "Divya's Roll number"
+---
+#Lists
+- apple
+- mango
+- banana
+#yaml is case sensitive 
+---
+#block style 
+cities:
+ - mumbai
+ - delhi
+ - kolkata
+ #spaces are very important in yaml 
+# we can use "---" to tell yaml that it's diff document 
+---
+cities : [new delhi, mumbai]
+---
+{mango : "fruits", age: 60}
+...
+#"..." shows that document has ended 
+#yaml doesn't provide multi-line comments 

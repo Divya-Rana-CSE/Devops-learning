@@ -1,0 +1,8 @@
+---
+school:
+ - principle:Someone
+ - name:DPS
+ - Students:
+     - roll_no:23
+     - name:"Yukta"
+     - marks:34

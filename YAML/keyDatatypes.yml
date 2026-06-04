@@ -1,0 +1,50 @@
+#string variables
+myself: Divya
+fruit: "Mango"
+job: 'Devops'
+---
+bio: |
+ hey my name is divya.
+ i am a very nice person.
+
+#write a single line in multiple lines
+message: >
+ this will
+ all be 
+ in one single line 
+
+# same as 
+message: this will all be in one single line 
+
+number: 89 #int
+marks: 45.67 #float
+boleanValue: No #bolean value 
+#for No -> n, N, false, False, FALSE 
+#same for true -> yes, y, Y 
+
+#SPECIFY THE TYPE
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -56
+binaryNum: !!int 0b11001
+octal Num: !!int 06574
+hexa: !! int 0x45 
+commaValue: !!int +54_000 #54,000
+exponential numbers: 6.023E56 
+#floating point numbers 
+marks: !!float 45.67
+infinite: !!float .inf
+not a num: .nan
+
+booleanValue: !!bool No
+stringValue: !!str 12345 
+
+#null 
+surname: !!null NULL #or null Null ~
+~: this is a Null Key 
+
+#dates and times 
+date: !!timestamp 2024-12-14
+#If the time zone is omitted, the timestamp is assumed to be specified in UTC. The time part may be omitted altogether, resulting in a date format. In such a case, the time part is assumed to be 00:00:00Z (start of day, UTC).
+india time: 2001-12-15T02:59:43.1Z +5:30 
+no time zone: 2001-12-15T02:59:43.1Z 
