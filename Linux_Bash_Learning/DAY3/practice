@@ -1,0 +1,13 @@
+#!/bin/bash
+
+expr 30 - 10
+expr 30+10
+expr 30 / 10
+expr 30 \* 10
+expr 30 % 10
+expr 30 * 7
+mynum=100
+expr $mynum + 50
+num2=80
+expr $mynum + $num2
+

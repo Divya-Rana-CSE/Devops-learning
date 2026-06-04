@@ -1,0 +1,19 @@
+#!/bin/bash
+
+myname="Sasha"
+myage="20"
+
+echo "Hello! My name is $myname."
+echo "I'm $myage year old."
+echo 'Hello! My name is $myname.'
+echo 'I'\''m $myage year old.'
+
+word="awesome"
+echo "Sunny days are $word"
+echo "Linux is $word"
+echo "Video games are $word"
+
+con=$(date)
+echo "The system time and date is:"
+echo $con
+date

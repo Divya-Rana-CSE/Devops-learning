@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Sunny days are awesome"
+echo "Linux is awesome"
+echo "Video games are awesome" 
+
+word="awesome"
+echo "Sunny days are $word"
+echo "Linux is $word"
+echo "Video games are $word"
+
+name="Jay Fox"
+now=$(date)
+echo "Hello $name"
+echo "The system time and date is:"
+echo $now
+echo "Your username is: $USER"
+

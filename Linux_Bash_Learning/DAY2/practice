@@ -1,0 +1,20 @@
+#!/bin/bash
+
+myname="Sara"
+echo $myname
+clear
+exit
+cd .. 
+myname="Sasha"
+myage="20"
+echo "Hello! My name is $myname."
+echo "I'm $myage year old."
+echo 'Hello! My name is $myname.'
+echo 'I'\''m $myage year old.'
+date
+now=$(date)
+echo $now
+env
+echo $TERM
+echo $USER
+
